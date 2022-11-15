@@ -3,6 +3,7 @@ FROM node:16-alpine3.15
 
 # create a working dir and copy all files except those in docker ignore
 WORKDIR /src/
+COPY . .
 
 COPY . .
 
